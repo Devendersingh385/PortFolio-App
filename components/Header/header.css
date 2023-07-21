@@ -1,0 +1,26 @@
+.main-header {
+    padding: 30px 40px;
+    transition: transform .5s ease-in-out,opacity .5s ease-in-out,background-color .4s,padding .4s,-webkit-transform .5s ease-in-out;
+}
+.scrolled {
+    background-color: rgba(0,0,0,.9);
+    padding: 15px 30px;
+}
+.scrolled .hamburg {
+    margin-left: 30px;
+}
+.scrolled .headerBtn {
+    border-color: #fff;
+    opacity: 1;
+    color: #fff;
+    -webkit-transform: scale(.9);
+    -ms-transform: scale(.9);
+    transform: scale(.9)
+}
+.sideBar-header {
+    position: absolute;
+    top: 40px;
+    z-index: 999;
+    right: 60px;
+    color: #fff;
+}
