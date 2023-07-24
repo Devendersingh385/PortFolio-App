@@ -1,5 +1,6 @@
 import About from "@/components/About/About";
 import Banner from "@/components/Banner/Banner";
+import Contact from "@/components/Contact/Contact";
 import Footer from "@/components/Footer/Footer";
 import MyExperience from "@/components/MyExperience/MyExperience";
 import MyWork from "@/components/MyWork/MyWork";
@@ -11,10 +12,11 @@ export default function Home() {
     <>
       <Banner />
       <About />
-      <Services title='Services' />
-      <MyWork title='My Portfolio' />
+      {/* <Services title='Services' /> */}
+      {/* <MyWork title='My Portfolio' /> */}
       <Skills title='My Technologies' />   
       <MyExperience title='My Experience' />   
+      <Contact />
     </>
   );
 }

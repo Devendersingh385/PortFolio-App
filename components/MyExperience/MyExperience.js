@@ -8,12 +8,14 @@ const MyExperience = ({ title }) => {
     <>
     <Box className="py-20">
         <Container maxWidth="lg">
-          <Grid container spacing={6} justifyContent="center">
+          <Grid container lg={12} justifyContent="center">
             <Box className='mb-8'>
               <Typography level="h2">{title}</Typography>
             </Box>
-          </Grid>
-          <Grid container spacing={{ xs: 4, md: 4, lg: 5 }}>
+          </Grid>          
+        </Container>
+        <Container maxWidth="lg">        
+          <Grid container spacing={{ xs: 4, md: 4, lg: 4 }}>
             <ExperienceData />  
           </Grid>
         </Container>
