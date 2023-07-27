@@ -26,7 +26,7 @@ const Header = () => {
             : "main-header fixed top-0 left-0 right-0 z-10"
         }
       >
-        <Container maxWidth="lg">
+        <Container maxWidth="">
           <Grid container spacing={2} sx={{ flexGrow: 1 }} className="p-0">
             <Grid xs={12} lg={12} sx={{ padding: 0 }}>
               <List className="p-0" 

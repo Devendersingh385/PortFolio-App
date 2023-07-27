@@ -80,7 +80,7 @@ const BannerBody = () => {
                       fontWeight: "100",
                     }}
                   >
-                    I’m Joe Biden
+                    I’m Devender Singh
                     <br className="xs-hidden md:block lg:block" />
                     Front-End <br className="xs-hidden md:block lg:block" />{" "}
                     Software Engineer

@@ -8,9 +8,9 @@ const AboutData = () => {
     <>
         <Box sx={{   }}>
             <Typography level="h4" className='mb-4'>Know Me More</Typography>
-            <Typography level="h2" className='mb-4'>I'm Simone Olivia, a Web Developer</Typography>
-            <Typography level="body1" className='mb-4'>I help you build brand for your business at an affordable price. Thousands of clients have procured exceptional results while working with our dedicated team. when an unknown printer took a galley of type and scrambled it to make a type specimen book.</Typography>
-            <Typography level="body1" className='mb-4'>Delivering work within time and budget which meets client’s requirements is our moto. Lorem Ipsum has been the industry's standard dummy text ever when an unknown printer took a galley.</Typography>
+            <Typography level="h2" className='mb-4'>I'm Devender Singh, a Front End Engineer</Typography>
+            <Typography level="body1" className='mb-4'>Experienced front-end engineer with 5 years of expertise in crafting dynamic user interfaces. Proficient in HTML, CSS, and JavaScript, with a focus on React and Angular frameworks. Passionate about creating seamless user experiences and collaborating with cross-functional teams. Committed to continuous learning and delivering high-quality solutions. Ready to take on new challenges and contribute to innovative web development projects.</Typography>
+            <Typography level="body1" className='mb-4'>My strong eye for design aesthetics and attention to detail ensure that every element of the user experience is meticulously crafted. I thrive in collaborative environments, working closely with designers and developers to transform ideas into reality. Constantly staying abreast of emerging technologies, I am passionate about pushing the boundaries of web development to deliver exceptional solutions that leave a lasting impact on users. With a proven track record of successful project deliveries and a commitment to excellence, I am enthusiastic about contributing my skills and creativity to new challenges and making a significant impact in the front-end development space.</Typography>
         </Box> 
     </>
   )

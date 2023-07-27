@@ -14,7 +14,7 @@ import ImageListItem from "@mui/material/ImageListItem";
 const itemData = [
   {
     id: '1',
-    img: "https://images.unsplash.com/photo-1551963831-b3b1ca40c98e",
+    img: "https://images.unsplash.com/photo-1498049860654-af1a5c566876?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=1470&q=80",
     title: "Breakfast",
     author: "@bkristastucchio",
     rows: 2,
@@ -23,33 +23,33 @@ const itemData = [
   },
   {
     id: '2',
-    img: "https://images.unsplash.com/photo-1551782450-a2132b4ba21d",
+    img: "https://images.unsplash.com/photo-1508830524289-0adcbe822b40?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=1125&q=80",
     title: "Burger",
     author: "@rollelflex_graphy726",
   },
   {
     id: '3',
-    img: "https://images.unsplash.com/photo-1522770179533-24471fcdba45",
+    img: "https://images.unsplash.com/photo-1516383740770-fbcc5ccbece0?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=1074&q=80",
     title: "Camera",
     author: "@helloimnik",
   },
   {
     id: '4',
-    img: "https://images.unsplash.com/photo-1444418776041-9c7e33cc5a9c",
+    img: "https://images.unsplash.com/photo-1531497865144-0464ef8fb9a9?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=1074&q=80",
     title: "Coffee",
     author: "@nolanissac",
     cols: 2,
   },
   {
     id: '5',
-    img: "https://images.unsplash.com/photo-1533827432537-70133748f5c8",
+    img: "https://images.unsplash.com/photo-1552664688-cf412ec27db2?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=687&q=80",
     title: "Hats",
     author: "@hjrc33",
     cols: 2,
   },
   {
     id: '6',
-    img: "https://images.unsplash.com/photo-1558642452-9d2a7deb7f62",
+    img: "https://plus.unsplash.com/premium_photo-1682130145031-a2a390d708a8?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8Mzd8fGNvZGluZyUyMGltYWdlc3xlbnwwfHwwfHx8MA%3D%3D&auto=format&fit=crop&w=500&q=60",
     title: "Honey",
     author: "@arwinneil",
     rows: 2,
@@ -58,13 +58,13 @@ const itemData = [
   },
   {
     id: '7',
-    img: "https://images.unsplash.com/photo-1516802273409-68526ee1bdd6",
+    img: "https://images.unsplash.com/photo-1516383740770-fbcc5ccbece0?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=1074&q=80",
     title: "Basketball",
     author: "@tjdragotta",
   },
   {
     id: '8',
-    img: "https://images.unsplash.com/photo-1518756131217-31eb79b20e8f",
+    img: "https://images.unsplash.com/photo-1487058792275-0ad4aaf24ca7?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8NXx8Y29kaW5nJTIwaW1hZ2VzfGVufDB8fDB8fHww&auto=format&fit=crop&w=500&q=60",
     title: "Fern",
     author: "@katie_wasserman",
   },
@@ -97,7 +97,7 @@ const itemData = [
   },
   {
     id: '13',
-    img: "https://images.unsplash.com/photo-1518756131217-31eb79b20e8f",
+    img: "https://images.unsplash.com/photo-1460661419201-fd4cecdf8a8b?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=880&q=80",
     title: "Fern",
     author: "@katie_wasserman",
   },
@@ -106,7 +106,7 @@ const itemData = [
 const designWork = [
   {
     id: '14',
-    img: "https://images.unsplash.com/photo-1551963831-b3b1ca40c98e",
+    img: "https://images.unsplash.com/photo-1498049860654-af1a5c566876?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=1470&q=80",
     title: "Breakfast",
     author: "@bkristastucchio",
     rows: 2,
@@ -115,26 +115,26 @@ const designWork = [
   },
   {
     id: '15',
-    img: "https://images.unsplash.com/photo-1551782450-a2132b4ba21d",
+    img: "https://images.unsplash.com/photo-1516383740770-fbcc5ccbece0?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=1074&q=80",
     title: "Burger",
     author: "@rollelflex_graphy726",
   },
   {
     id: '16',
-    img: "https://images.unsplash.com/photo-1522770179533-24471fcdba45",
+    img: "https://images.unsplash.com/photo-1552664688-cf412ec27db2?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=687&q=80",
     title: "Camera",
     author: "@helloimnik",
   },
   {
     id: '17',
-    img: "https://images.unsplash.com/photo-1444418776041-9c7e33cc5a9c",
+    img: "https://images.unsplash.com/photo-1557426272-fc759fdf7a8d?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=1470&q=80",
     title: "Coffee",
     author: "@nolanissac",
     cols: 2,
   },
   {
     id: '18',
-    img: "https://images.unsplash.com/photo-1533827432537-70133748f5c8",
+    img: "https://images.unsplash.com/photo-1460661419201-fd4cecdf8a8b?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=880&q=80",
     title: "Hats",
     author: "@hjrc33",
     cols: 2,
@@ -144,7 +144,7 @@ const designWork = [
 const developmentWork = [
   {
     id: '19',
-    img: "https://images.unsplash.com/photo-1551963831-b3b1ca40c98e",
+    img: "https://images.unsplash.com/photo-1508830524289-0adcbe822b40?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=1125&q=80",
     title: "Breakfast",
     author: "@bkristastucchio",
     rows: 2,
@@ -153,26 +153,26 @@ const developmentWork = [
   },
   {
     id: '20',
-    img: "https://images.unsplash.com/photo-1551782450-a2132b4ba21d",
+    img: "https://images.unsplash.com/photo-1531497865144-0464ef8fb9a9?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=1074&q=80",
     title: "Burger",
     author: "@rollelflex_graphy726",
   },
   {
     id: '21',
-    img: "https://images.unsplash.com/photo-1522770179533-24471fcdba45",
+    img: "https://images.unsplash.com/photo-1561736778-92e52a7769ef?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8MjB8fGNvZGluZyUyMGltYWdlc3xlbnwwfHwwfHx8MA%3D%3D&auto=format&fit=crop&w=500&q=60",
     title: "Camera",
     author: "@helloimnik",
   },
   {
     id: '22',
-    img: "https://images.unsplash.com/photo-1444418776041-9c7e33cc5a9c",
+    img: "https://plus.unsplash.com/premium_photo-1682130145031-a2a390d708a8?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8Mzd8fGNvZGluZyUyMGltYWdlc3xlbnwwfHwwfHx8MA%3D%3D&auto=format&fit=crop&w=500&q=60",
     title: "Coffee",
     author: "@nolanissac",
     cols: 2,
   },
   {
     id: '23',
-    img: "https://images.unsplash.com/photo-1533827432537-70133748f5c8",
+    img: "https://images.unsplash.com/photo-1487058792275-0ad4aaf24ca7?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8NXx8Y29kaW5nJTIwaW1hZ2VzfGVufDB8fDB8fHww&auto=format&fit=crop&w=500&q=60",
     title: "Hats",
     author: "@hjrc33",
     cols: 2,
@@ -253,10 +253,9 @@ const WorkList = () => {
                 <TabContext value={value}>
                   <Box sx={{ borderBottom: 1, borderColor: "divider" }}>
                     <TabList
-                      onChange={handleChange}
-                      aria-label="lab API tabs example"
+                      onChange={handleChange}                      
                     >
-                      <Tab label="All" value="1" />
+                      <Tab label="All" value="1" sx={{color: '#1877f2 !important'}} />
                       <Tab label="Design Work" value="2" />
                       <Tab label="Development Work" value="3" />
                     </TabList>

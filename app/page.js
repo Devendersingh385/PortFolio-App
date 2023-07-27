@@ -12,11 +12,11 @@ export default function Home() {
     <>
       <Banner />
       <About />
-      {/* <Services title='Services' /> */}
-      {/* <MyWork title='My Portfolio' /> */}
+      <Services title='Services' />
+      <MyWork title='My Work Portfolio' />
       <Skills title='My Technologies' />   
       <MyExperience title='My Experience' />   
-      <Contact />
+      <Contact title='Contact Us' />
     </>
   );
 }
