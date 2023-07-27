@@ -20,7 +20,7 @@ const BannerBody = () => {
 
   return (
     <>
-      <Box className="h-screen bg-white">
+      <Box className="h-screen bg-white mainBanner">
         <Container
           maxWidth=""
           spacing={{ xs: 0, md: 0 }}

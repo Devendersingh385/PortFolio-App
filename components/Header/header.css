@@ -24,3 +24,21 @@
     right: 60px;
     color: #fff;
 }
+
+
+@media all and (max-width: 600px) {
+    .scrolled {
+        padding: 15px !important;
+    }
+    .main-header {
+        padding: 30px;
+    }
+    .main-header .MuiContainer-root, .main-header li.MuiListItem-root {
+        padding: 0 !important;
+      }
+}
+@media all and (max-width: 900px) {
+    .main-header {
+        padding: 15px 20px;
+    }
+}

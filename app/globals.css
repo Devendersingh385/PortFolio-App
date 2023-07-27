@@ -123,3 +123,18 @@ h1, .h1, h2, .h2, h3, .h3, h4, .h4, h5, .h5, h6, .h6, p {
   font-display: swap;
 }
 
+
+/** Media CSS **/
+@media all and (max-width: 1200px) {
+  .mainBanner h1 {
+    font-size: 45px;
+  }
+}
+@media all and (max-width: 900px) {
+  .mainBanner h1 {
+    font-size: 38px;
+  }
+  .aboutUs h2 {
+    font-size: 35px;
+}
+}
