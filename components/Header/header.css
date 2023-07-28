@@ -1,10 +1,12 @@
 .main-header {
     padding: 30px 40px;
     transition: transform .5s ease-in-out,opacity .5s ease-in-out,background-color .4s,padding .4s,-webkit-transform .5s ease-in-out;
+    width: 100vw;
 }
 .scrolled {
     background-color: rgba(0,0,0,.9);
     padding: 15px 30px;
+    width: 100vw;
 }
 .scrolled .hamburg {
     margin-left: 30px;
@@ -26,9 +28,14 @@
 }
 
 
+@media all and (max-width: 900px) {
+    .main-header {
+        padding: 15px 20px;
+    }
+}
 @media all and (max-width: 600px) {
     .scrolled {
-        padding: 15px !important;
+        padding: 30px !important;
     }
     .main-header {
         padding: 30px;
@@ -36,9 +43,4 @@
     .main-header .MuiContainer-root, .main-header li.MuiListItem-root {
         padding: 0 !important;
       }
-}
-@media all and (max-width: 900px) {
-    .main-header {
-        padding: 15px 20px;
-    }
 }
