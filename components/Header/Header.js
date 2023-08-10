@@ -40,7 +40,7 @@ const Header = () => {
                     <Link href="/">
                       <Image
                         src="/vercel.svg"
-                        alt="Vercel Logo"
+                        alt="Vercel-Logo"
                         className="dark:invert"
                         width={100}
                         height={24}
@@ -51,7 +51,7 @@ const Header = () => {
                     <Link href="/">
                       <Image
                         src="/vercel.svg"
-                        alt="Vercel Logo"
+                        alt="Vercel-Logo"
                         className="dark:invert"
                         width={100}
                         height={24}

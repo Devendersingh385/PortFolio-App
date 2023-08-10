@@ -1,7 +1,6 @@
 import About from "@/components/About/About";
 import Banner from "@/components/Banner/Banner";
 import Contact from "@/components/Contact/Contact";
-import Footer from "@/components/Footer/Footer";
 import MyExperience from "@/components/MyExperience/MyExperience";
 import MyWork from "@/components/MyWork/MyWork";
 import Services from "@/components/Services/Services";

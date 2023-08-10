@@ -5,6 +5,7 @@ import { contactUsSchema } from "/schemas";
 import Card from "@mui/joy/Card";
 import CardContent from "@mui/joy/CardContent";
 import Button from "@mui/joy/Button";
+import { Stack } from "@mui/material";
 const initialValues = {
   fullname: "",
   email: "",
@@ -48,10 +49,11 @@ const ContactForm = () => {
       >
         <CardContent>
           {isFormSubmiited ? (
-            <div>
+            <Stack>
               <p>Thank you for submitting the form!</p>
               {/* You can also display additional success content here */}
-            </div>
+            </Stack>
+          
           ) : (
             <form onSubmit={handleSubmit}>
               <TextField

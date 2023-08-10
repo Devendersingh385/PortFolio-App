@@ -187,20 +187,21 @@ const listStyle = {
     overflow: "hidden",
   },
 
-  "& .MuiImageListItem-standard:first-child": {
+  "& .MuiImageListItem-standard:first-of-type": {
     gridArea: "1 / 1 / 3 / 3 !important",
     borderTopLeftRadius: "10px",
-    borderBottomLeftRadius: "10px",
   },
-  "& .MuiImageListItem-standard:nth-child(3)": {
+  "& .MuiImageListItem-standard:nth-of-type(3)": {
     borderTopRightRadius: "10px",
+  },
+  "& .MuiImageListItem-standard:nth-of-type(10)": {
+    borderBottomLeftRadius: "10px",
   },
   "& .MuiImageListItem-standard:last-child": {
     borderBottomRightRadius: "10px",
   },
   "& :first-child img": {
     borderTopLeftRadius: "10px",
-    borderBottomLeftRadius: "10px",
   },
   "& :before": {
     position: "absolute",
@@ -227,13 +228,15 @@ const listStyle = {
       "linear-gradient(180deg, rgba(0,0,0,0.2) 40%, rgba(0,0,0,0.1) 100%)",
     opacity: "0",
   },
-  "& :hover img": {
+  "img": {
     transition: "0.2s all ease-out",
+  },
+  "& :hover img": {    
     transform: "scale(1.05)",
     borderTopLeftRadius: "10px",
     borderBottomLeftRadius: "10px",
   },
-  "& :hover :after": {
+  "&:hover :after": {
     opacity: "1",
   },
 };

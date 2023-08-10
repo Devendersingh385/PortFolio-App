@@ -27,9 +27,9 @@ serviceData.forEach((item, i) => {
           }}
         >
           <CardContent>
-            <div width={60} height={60} className="mb-6">
+            <Box width={60} height={60} className="mb-6">
               {item.icon}
-            </div>
+            </Box>
 
             <Typography level="h4" className='mb-4'
               sx={{
