@@ -2,24 +2,24 @@ import { Grid, Typography } from '@mui/joy';
 import { Box, Card, CardContent } from '@mui/material';
 import React from 'react'
 
-const experience = [
+const experience = [  
   {
   id: 0,
-  companyname: 'Microsoft',
-  Years: 'Mar 2018 - June 2018',
+  companyname: 'Novel It Solutions P LTD',
+  Years: 'July 2018 - Feb 2019',
   Position: 'Jr. Web Designer',
 },
-  {
+   {
   id: 1,
-  companyname: 'Microsoft',
-  Years: 'Mar 2018 - June 2018',
-  Position: 'Jr. Web Designer',
+  companyname: 'Glocify Technologies',
+  Years: 'Mar 2019 - Present',
+  Position: 'Sr. Web Designer',
 },
-  {
+   {
   id: 2,
-  companyname: 'Microsoft',
-  Years: 'Mar 2018 - June 2018',
-  Position: 'Jr. Web Designer',
+  companyname: 'Glocify Technologies',
+  Years: 'Mar 2022 - Present',
+  Position: 'Front End Developer',
 },
 
 ]

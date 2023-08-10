@@ -5,7 +5,7 @@ import { Container, Grid, Typography } from "@mui/joy";
 const Footer = () => {
   return (
     <>
-      <Box className="bg-black py-5">
+      <Box className=" py-5 " sx={{ background: '#1877f2' }}>
         <Container maxWidth="sm">
           <Grid container spacing={2}>
             <Grid item xs={12}>

@@ -89,14 +89,14 @@ const Contact = ({ title }) => {
                 </Link>
               </ListItem>
               <ListItem className='px-0'>
-                <Link href=''>
+                <Link href='https://www.linkedin.com/in/devender-singh-071133171/' target="_blank">
                   <LinkedInIcon sx={{
                       color: '#1877f2'
                     }}/>  
                 </Link>
               </ListItem>
               <ListItem className='px-0'>  
-                <Link href=''>
+                <Link href='https://github.com/Devendersingh385' target="_blank">
                 <GitHubIcon sx={{
                       color: '#1877f2'
                     }}/>
