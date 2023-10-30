@@ -15,7 +15,7 @@ export const serviceData = [
     ),
     title: "Brand Strategy & Art Direction",
     description:
-      "Creating a higher spacing and how people move through a unique.",
+      "Crafting compelling brand identities through strategic vision and captivating art direction.",
   },
   {
     id: 2,
@@ -29,7 +29,7 @@ export const serviceData = [
     ),
     title: "UX/UI Design",
     description:
-      "Creating a higher spacing and how people move through a unique.",
+      "Offering intuitive and visually captivating UX/UI design services for a seamless digital journey.",
   },
   {
     id: 3,
@@ -43,6 +43,6 @@ export const serviceData = [
     ),
     title: "Web Development",
     description:
-      "Creating a higher spacing and how people move through a unique.",
+      "Transforming ideas into stunning, functional websites with my expert web development services.",
   },
 ];

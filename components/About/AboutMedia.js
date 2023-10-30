@@ -6,16 +6,23 @@ import AspectRatio from "@mui/joy/AspectRatio";
 const AboutMedia = () => {
   return (
     <>
-      <Box>
+      <Box sx={{
+        "img": {
+          objectFit: 'contain !important'
+        }
+      }}>
         <AspectRatio
-          ratio="1/1"          
+          ratio="1/1"
+          sx={{           
+            borderRadius: '12px'
+          }}          
         >
           <Image
-            src="/about-8.jpg"
+            src="/my-picture.png"
             alt="about"
             width={500}
-            height={300}
-            className="rounded-xl"
+            height={500}
+            className="rounded-xl"                                 
           />
         </AspectRatio>
       </Box>

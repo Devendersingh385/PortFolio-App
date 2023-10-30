@@ -8,6 +8,7 @@ import Link from "next/link";
 import List from "@mui/joy/List";
 import ListItem from "@mui/joy/ListItem";
 import HamburgerMenu from "./HamburgerMenu";
+import { Typography } from "@mui/joy";
 
 const Header = () => {
   const [scroll, setScroll] = useState(false);
@@ -29,7 +30,7 @@ const Header = () => {
         <Container maxWidth="">
           <Grid container spacing={2} sx={{ flexGrow: 1 }} className="p-0">
             <Grid xs={12} lg={12} sx={{ padding: 0 }}>
-              <List className="p-0" 
+              <List className="p-0"
                 sx={{
                   flexDirection: 'row',
                   justifyContent: 'space-between'
@@ -38,25 +39,27 @@ const Header = () => {
                 <ListItem className="p-0">
                   {scroll ? (
                     <Link href="/">
-                      <Image
+                      {/* <Image
                         src="/vercel.svg"
                         alt="Vercel-Logo"
                         className="dark:invert"
                         width={100}
                         height={24}
                         priority
-                      />
+                      /> */}                      
+                      <Typography level="h2"  sx={{ color: '#fff'}}> Devender</Typography>
                     </Link>
                   ) : (
                     <Link href="/">
-                      <Image
+                      {/* <Image
                         src="/vercel.svg"
                         alt="Vercel-Logo"
                         className="dark:invert"
                         width={100}
                         height={24}
                         priority
-                      />
+                      /> */}                      
+                      <Typography level="h2" sx={{ color: '#fff'}}> Devender</Typography>
                     </Link>
                   )}
                 </ListItem>

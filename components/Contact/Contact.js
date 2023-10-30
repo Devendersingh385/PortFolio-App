@@ -82,7 +82,7 @@ const Contact = ({ title }) => {
               </List>
               <List className='flex-row gap-2'>
               <ListItem className='px-0'>
-                <Link href='https://www.instagram.com/davi_singh_385/'>
+                <Link href=''>
                   <InstagramIcon sx={{
                       color: '#1877f2'
                     }}/>   
