@@ -18,7 +18,8 @@ const cardStyle = {
   "& .MuiCardHeader-title": {
     fontSize: '22px',
     fontWeight: '500',
-    fontFamily: 'Poppins'
+    fontFamily: 'Poppins',
+    color: '#000'
   },
   "&:hover":{
     boxShadow:'2px 4px 16px rgba(0,0,0,.16)',
@@ -33,7 +34,7 @@ const Technologies = () => {
         {
             getTechnoloies.map( technology => 
                 // eslint-disable-next-line react/jsx-key
-                <Grid item xs={12} lg={4}  display="flex" alignItems="center" >
+                <Grid item xs={12} lg={3}  display="flex" alignItems="center" >
                 <Box
                  key={technology.id}
                  sx={{

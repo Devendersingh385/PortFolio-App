@@ -119,7 +119,7 @@ const ContactForm = () => {
                   fontWeight: 400,
                 }}
               >
-                Button
+                Submit
               </Button>
             </form>
           )}
