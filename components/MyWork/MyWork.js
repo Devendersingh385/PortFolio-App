@@ -8,11 +8,11 @@ import { Typography } from "@mui/joy";
 const MyWork = ({ title }) => {
   return (
     <>
-      <Box sx={{ flexGrow: 1 }} className="py-16">
+      <Box sx={{ flexGrow: 1 }} className="py-16 dark:bg-[#101010]">
         <Container maxWidth="lg">
           <Grid container spacing={2} className="justify-center mb-6">
           <Box className='mb-8'>
-              <Typography level="h2">{title}</Typography>
+              <Typography level="h2" className="dark:text-[#f5f5f7]">{title}</Typography>
             </Box>
           </Grid>
           <Grid

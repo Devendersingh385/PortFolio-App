@@ -3,12 +3,12 @@ import React, { useEffect, useState } from "react";
 import Box from "@mui/material/Box";
 import Container from "@mui/material/Container";
 import Grid from "@mui/joy/Grid";
-import Image from "next/image";
 import Link from "next/link";
 import List from "@mui/joy/List";
 import ListItem from "@mui/joy/ListItem";
 import HamburgerMenu from "./HamburgerMenu";
 import { Typography } from "@mui/joy";
+import ThemeSwitch from "../ThemeSwitch/ThemeSwitch";
 
 const Header = () => {
   const [scroll, setScroll] = useState(false);
@@ -30,10 +30,11 @@ const Header = () => {
         <Container maxWidth="">
           <Grid container spacing={2} sx={{ flexGrow: 1 }} className="p-0">
             <Grid xs={12} lg={12} sx={{ padding: 0 }}>
-              <List className="p-0"
+              <List
+                className="p-0"
                 sx={{
-                  flexDirection: 'row',
-                  justifyContent: 'space-between'
+                  flexDirection: "row",
+                  justifyContent: "space-between",
                 }}
               >
                 <ListItem className="p-0">
@@ -46,8 +47,11 @@ const Header = () => {
                         width={100}
                         height={24}
                         priority
-                      /> */}                      
-                      <Typography level="h2"  sx={{ color: '#fff'}}> Devender</Typography>
+                      /> */}
+                      <Typography level="h2" sx={{ color: "#fff" }}>
+                        {" "}
+                        Devender
+                      </Typography>
                     </Link>
                   ) : (
                     <Link href="/">
@@ -58,13 +62,17 @@ const Header = () => {
                         width={100}
                         height={24}
                         priority
-                      /> */}                      
-                      <Typography level="h2" sx={{ color: '#fff'}}> Devender</Typography>
+                      /> */}
+                      <Typography level="h2" sx={{ color: "#fff" }}>
+                        {" "}
+                        Devender
+                      </Typography>
                     </Link>
                   )}
                 </ListItem>
                 <ListItem className="p-0">
                   <HamburgerMenu />
+                  <ThemeSwitch />
                 </ListItem>
               </List>
             </Grid>

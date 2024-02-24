@@ -12,31 +12,18 @@ serviceData.forEach((item, i) => {
     <Grid item xs={12} lg={4}>
       <Box key={item.id} className="h-full">
         <Card
-          className="h-full"
-          sx={{
-            boxShadow: "0px 8px 24px #F2F0FF",
-            borderRadius: "10px",
-            height: "100%",
-            padding: "32px",
-            transition: "all .3s cubic-bezier(0,0,.5,1)",
-            background: "#fff",
-            "&:hover": {
-              boxShadow: "2px 4px 16px rgba(0,0,0,.16)",
-              transform: "scale3d(1.01,1.01,1.01)",
-            },
-          }}
+          className="h-full dark:bg-gradient-to-b from-[#242424] to-[#121212] p-6 shadow-none dark:border dark:border-solid dark:border-[#111111]"          
         >
           <CardContent>
             <Box width={60} height={60} className="mb-6">
               {item.icon}
             </Box>
-
-            <Typography level="h4" className='mb-4'
+            <Typography level="h4" className='mb-4 dark:text-white'
               sx={{
                 minHeight: '72px'
               }}
             >{item.title}</Typography>
-            <Typography level="body1">{item.description}</Typography>
+            <Typography level="body1" className="dark:text-white">{item.description}</Typography>
           </CardContent>
         </Card>
       </Box>

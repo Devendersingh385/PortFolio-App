@@ -8,11 +8,8 @@ import { Typography } from "@mui/joy";
 const Skills = ({ title }) => {
   return (
     <>
-      <Box
-        sx={{          
-          background: "rgb(247, 249, 252)",
-        }}
-        className="py-20"
+      <Box       
+        className="py-20 bg-[#f7f5fc] dark:bg-black"
       >
         <Container maxWidth="lg">
           <Grid container spacing={2} className="justify-center mb-6">        

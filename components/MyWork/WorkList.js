@@ -200,7 +200,7 @@ const listStyle = {
   "& .MuiImageListItem-standard:last-child": {
     borderBottomRightRadius: "10px",
   },
-  "& :first-child img": {
+  "& :first-of-type img": {
     borderTopLeftRadius: "10px",
   },
   "& :before": {

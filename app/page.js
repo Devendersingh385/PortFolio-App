@@ -1,10 +1,11 @@
-import About from "@/components/About/About";
-import Banner from "@/components/Banner/Banner";
-import Contact from "@/components/Contact/Contact";
-import MyExperience from "@/components/MyExperience/MyExperience";
-import MyWork from "@/components/MyWork/MyWork";
-import Services from "@/components/Services/Services";
-import Skills from "@/components/Skills/Skills";
+import About from "../components/About/About";
+import Banner from "../components/Banner/Banner";
+import Contact from "../components/Contact/Contact";
+import MyExperience from "../components/MyExperience/MyExperience";
+import MyWork from "../components/MyWork/MyWork";
+import Services from "../components/Services/Services";
+import Skills from "../components/Skills/Skills";
+import Work from "../components/Work/Work";
 
 export default function Home() {
   return (
@@ -16,6 +17,7 @@ export default function Home() {
       <Skills title='My Technologies' />   
       <MyExperience title='My Experience' />   
       <Contact title='Contact Us' />
+      <Work title="My Work History"/>
     </>
   );
 }

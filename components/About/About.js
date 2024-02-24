@@ -7,7 +7,7 @@ import AboutMedia from "./AboutMedia";
 const About = () => {
   return (
     <>
-      <Box className="py-20 aboutUs">
+      <Box className="py-20 aboutUs dark:bg-[#101010]">
         <Container maxWidth="lg">
           <Grid container spacing={6} alignItems="center">
             <Grid item xs={12} lg={6}>
